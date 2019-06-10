@@ -1,4 +1,4 @@
-package top.kwseeker.springclouddemo;
+package top.kwseeker.springcloudnativeapplication;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringCloudDemoApplicationTests {
+public class SpringCloudNativeApplicationTests {
 
     @Test
     public void contextLoads() {
