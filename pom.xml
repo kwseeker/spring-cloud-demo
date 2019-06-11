@@ -26,6 +26,7 @@
         <module>spring-cloud-native-application</module>
         <module>spring-cloud-config-client</module>
         <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-nacos-client</module>
     </modules>
 
     <dependencies>
