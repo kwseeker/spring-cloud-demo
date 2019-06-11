@@ -18,7 +18,7 @@ import java.util.concurrent.Executor;
  * Interface used to indicate that a bean should <em>run</em> when it is contained within
  * a {@link SpringApplication}.
  */
-//基于事件机制自动刷新配置
+//基于事件机制监听配置变更，Nacos默认支持配置修改后的自动加载
 @Component
 public class SampleRunner implements ApplicationRunner {
 
@@ -35,7 +35,7 @@ public class SampleRunner implements ApplicationRunner {
         System.out.printf("Initial username=%s, userAge=%d", username, userAge);
 
         nacosConfigProperties.configServiceInstance().addListener(
-                "nacos-config-example.properties",
+                "nacos-config-client-app-dev.properties",
                 "DEFAULT_GROUP",
                 new Listener() {
                     @Override
