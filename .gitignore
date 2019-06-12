@@ -29,6 +29,7 @@ HELP.md
 .vscode/
 
 */target/
+*/*/target
 
 #作为配置中心的目录单独建立一个git仓库
 spring-cloud-config-server/src/main/resources/configs
