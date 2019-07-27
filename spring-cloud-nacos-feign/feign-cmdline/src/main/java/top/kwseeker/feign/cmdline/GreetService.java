@@ -8,7 +8,8 @@ import feign.RequestLine;
  */
 public interface GreetService {
 
-    @RequestLine("GET /greet/{name}/hello")
+    //添加正则表达式对传参值进行限定
+    @RequestLine("GET /greet/{name:[a-zA-Z]*}/hello")
     String greetHello(@Param("name") String name);
 
 }
