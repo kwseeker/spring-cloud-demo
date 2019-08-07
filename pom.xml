@@ -29,7 +29,7 @@
         <module>spring-cloud-config-nacos-client</module>
         <module>spring-cloud-discovery-eureka-server</module>
         <module>spring-cloud-hystrix-client</module>
-        <module>spring-cloud-zuul</module>
+        <module>spring-cloud-zuul-zipkin-sleuth</module>
     </modules>
 
     <dependencies>
