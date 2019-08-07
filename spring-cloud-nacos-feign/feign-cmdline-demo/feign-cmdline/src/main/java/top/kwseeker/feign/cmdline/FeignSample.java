@@ -2,8 +2,8 @@ package top.kwseeker.feign.cmdline;
 
 import feign.Feign;
 import feign.gson.GsonDecoder;
-import top.kwseeker.feign.cmdline.api.GreetService;
-import top.kwseeker.feign.cmdline.api.domain.DailyNews;
+import top.kwseeker.feign.common.api.client.GreetService;
+import top.kwseeker.feign.common.api.domain.DailyNews;
 
 public class FeignSample {
 
