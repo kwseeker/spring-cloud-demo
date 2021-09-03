@@ -30,6 +30,8 @@
         <module>spring-cloud-discovery-eureka-server</module>
         <module>spring-cloud-hystrix-client</module>
         <module>spring-cloud-zuul-zipkin-sleuth</module>
+        <module>modules</module>
+        <module>modules/hystrix-demo</module>
     </modules>
 
     <dependencies>
